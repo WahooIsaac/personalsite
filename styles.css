@@ -84,7 +84,6 @@ section.about p {
 }
 
 .projects {
-  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -98,8 +97,8 @@ section.about p {
 
 .project {
   display: block;
-  width: 286px;
-  background: red;
+  width: 100%;
+  background: pink;
   margin-bottom: 20px;
   height: 200px;
   position: relative;
